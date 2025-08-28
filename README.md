@@ -67,5 +67,6 @@ To use the built in server adapters of Eclipse, instead of doing "Run As -> Mave
 - try to add new commit for CICD pipeline testing.
 - new commit to check the automation.
 - audotmation not working.
+- nonononono
 
 *** End of documentation
