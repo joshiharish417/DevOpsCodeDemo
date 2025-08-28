@@ -89,6 +89,8 @@ public class ContactForm extends FormLayout {
             Notification.show(msg, Type.TRAY_NOTIFICATION);
             getUI().refreshContacts();
         } catch (FieldGroup.CommitException e) {
+            Notification.show("Validation failed, please check the form.",
+            Type.WARNING_MESSAGE);
             // Validation exceptions could be shown here
         }
     }
